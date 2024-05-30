@@ -1,0 +1,21 @@
+.links{
+    display: flex;
+    margin-left: 450px;
+    gap: 5px;
+    margin-top: -40px;
+}
+ a img{
+    width:60px;
+}
+
+@media (max-width: 768px) {
+    .links {
+        margin-left: 7%; /* Reduced margin for smaller screens */
+        margin-top: -1%;
+        gap: 10px; /* Increase gap for better readability */
+    }
+
+    a img{
+        width: 50px;
+    }
+}
