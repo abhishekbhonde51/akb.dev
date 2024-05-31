@@ -29,4 +29,16 @@ button{
     border-radius: 5px;
     font-size: 22px;
     font-weight: bold;
+    
+}
+
+@media (max-width: 768px) {
+    button{
+        height: 30px;
+        width: 150px;
+    }
+    p{
+        font-size: 20px;
+        font-weight: bold;
+    }
 }
